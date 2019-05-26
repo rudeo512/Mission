@@ -15,13 +15,7 @@ PUT /program
           }
         },
         "id" : {
-          "type" : "text",
-          "fields" : {
-            "keyword" : {
-              "type" : "keyword",
-              "ignore_above" : 256
-            }
-          }
+          "type" : "long"
         },
         "introjection" : {
           "type" : "text",
