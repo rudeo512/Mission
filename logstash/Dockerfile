@@ -5,6 +5,7 @@ ADD config/ /usr/share/logstash/config/
 
 WORKDIR /usr/share/logstash
 COPY data.csv ./file.csv
+COPY logs ./logs
 RUN mkdir -p vendor/jar/jdbc/
 COPY mysql-connector-java-5.1.47.jar ./vendor/jar/jdbc/mysql-connector-java-5.1.47.jar
 
