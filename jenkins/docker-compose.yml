@@ -1,0 +1,30 @@
+version: '2'
+services:
+  jenkins:
+    image: 'jenkins/jenkins:lts'
+    container_name: 'jenkins'
+    restart: always
+    ports:
+      - '8100:8080'
+      - '50100:50000'
+    expose:
+      - '8080'
+      - '50000'
+    volumes:
+      - './jenkins_home:/var/jenkins_home'
+    environment:
+      TZ: "Asia/Seoul"
+  slave:
+    image: 'jenkins/jenkins:lts'
+    container_name: 'jenkins_slave'
+    restart: always
+    ports:
+      - '8200:8080'
+      - '50200:50000'
+    expose:
+      - '8080'
+      - '50000'
+    volumes:
+      - './jenkins_slave_home:/var/jenkins_home'
+    environment:
+      TZ: "Asia/Seoul"
