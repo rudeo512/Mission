@@ -29,3 +29,5 @@ HELP.md
 .vscode/
 
 **/data/**
+**/jenkins_home/**
+**/jenkins_slave_home/**

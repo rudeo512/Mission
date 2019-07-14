@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  zoo1:
+    image: zookeeper
+    container_name: 'zoo1'
+    restart: always
+    ports:
+      - 2181:2181
+    volumes:
+      - './config/zoo.cfg:/conf/zoo.cfg'
+    environment:
+      ZOO_MY_ID: 1
