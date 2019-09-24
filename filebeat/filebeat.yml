@@ -1,6 +1,0 @@
-filebeat.prospectors:
-  - input_type: log
-    paths:
-      - '/usr/share/filebeat/filebeat.yml'
-output.elasticsearch:
-  hosts: ["docker.for.mac.localhost:9200"]

@@ -1,0 +1,25 @@
+filebeat.config:
+  modules:
+    path: ${path.config}/modules.d/*.yml
+    reload.enabled: false
+
+processors:
+  - add_cloud_metadata: ~
+
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - '../../kafka/kafka_2.12-2.0.1/logs/server.log'
+
+#========== KAFKA output
+output.kafka:
+  hosts: ['localhost:9092', 'localhost:9093', 'localhost:9094']
+  topic: 'peter-log'
+  version: '2.0.1'
+  partition.round_robin:
+    reachable_only: false
+
+  required_acks: 1
+  compression: gzip
+  max_message_bytes: 1000000
