@@ -1,0 +1,39 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-standard-services-api-nar
+
+
+From: 'Apache NiFi Project' (http://nifi.apache.org/)
+  - nifi-dbcp-service-api (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-dbcp-service-api) org.apache.nifi:nifi-dbcp-service-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-distributed-cache-client-service-api (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-distributed-cache-client-service-api) org.apache.nifi:nifi-distributed-cache-client-service-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-hbase-client-service-api (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-hbase-client-service-api) org.apache.nifi:nifi-hbase-client-service-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-http-context-map-api (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-http-context-map-api) org.apache.nifi:nifi-http-context-map-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-jetty-bundle (http://nifi.apache.org/nifi-nar-bundles/nifi-jetty-bundle) org.apache.nifi:nifi-jetty-bundle:nar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-kerberos-credentials-service-api (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-kerberos-credentials-service-api) org.apache.nifi:nifi-kerberos-credentials-service-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-load-distribution-service-api (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-load-distribution-service-api) org.apache.nifi:nifi-load-distribution-service-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-lookup-service-api (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-lookup-service-api) org.apache.nifi:nifi-lookup-service-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-proxy-configuration-api (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-proxy-configuration-api) org.apache.nifi:nifi-proxy-configuration-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-record (http://nifi.apache.org/nifi-commons/nifi-record) org.apache.nifi:nifi-record:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-record-serialization-service-api (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-record-serialization-service-api) org.apache.nifi:nifi-record-serialization-service-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-schema-registry-service-api (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-schema-registry-service-api) org.apache.nifi:nifi-schema-registry-service-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-ssl-context-service-api (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-ssl-context-service-api) org.apache.nifi:nifi-ssl-context-service-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

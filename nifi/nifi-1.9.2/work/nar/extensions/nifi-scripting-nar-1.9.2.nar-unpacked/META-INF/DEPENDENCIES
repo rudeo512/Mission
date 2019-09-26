@@ -1,0 +1,55 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-scripting-nar
+
+
+From: 'an unknown organization'
+  - Metrics Core Library (http://metrics.codahale.com/metrics-core/) com.yammer.metrics:metrics-core:jar:2.2.0
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - clojure (http://clojure.org/) org.clojure:clojure:jar:1.8.0
+    License: Eclipse Public License 1.0  (http://opensource.org/licenses/eclipse-1.0.php)
+  - luaj-jse (http://sourceforge.net/projects/luaj/) org.luaj:luaj-jse:jar:3.0.1
+    License: MIT License  (http://luaj.sourceforge.net/license.txt)
+  - Xerces2-j (https://xerces.apache.org/xerces2-j/) xerces:xercesImpl:jar:2.12.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - XML Commons External Components XML APIs (http://xml.apache.org/commons/components/external/) xml-apis:xml-apis:jar:1.4.01
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: The SAX License  (http://www.saxproject.org/copying.html)    License: The W3C License  (http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip)
+
+From: 'Apache NiFi Project' (http://nifi.apache.org/)
+  - nifi-scripting-processors (http://nifi.apache.org/nifi-nar-bundles/nifi-scripting-bundle/nifi-scripting-processors) org.apache.nifi:nifi-scripting-processors:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-standard-services-api-nar (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-standard-services-api-nar) org.apache.nifi:nifi-standard-services-api-nar:nar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-utils (http://nifi.apache.org/nifi-commons/nifi-utils) org.apache.nifi:nifi-utils:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache Software Foundation' (http://groovy-lang.org)
+  - Apache Groovy (http://groovy-lang.org) org.codehaus.groovy:groovy-all:jar:2.4.15
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'JRuby' (http://jruby.org)
+  - JRuby Complete (https://github.com/jruby/jruby/jruby-artifacts/jruby-complete) org.jruby:jruby-complete:bundle:9.1.17.0
+    License: GPL-2.0  (http://www.gnu.org/licenses/gpl-2.0-standalone.html)    License: LGPL-2.1  (http://www.gnu.org/licenses/lgpl-2.1-standalone.html)    License: EPL-2.0  (http://www.eclipse.org/legal/epl-v20.html)
+
+From: 'SciJava' (http://www.scijava.org/)
+  - jython-shaded (http://www.jython.org/jython-shaded/) org.scijava:jython-shaded:jar:2.7.1
+    License: Jython Software License  (http://www.jython.org/Project/license.html)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Ivy (http://ant.apache.org/ivy/) org.apache.ivy:ivy:jar:2.4.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Commons IO (http://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.6
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Net (http://commons.apache.org/proper/commons-net/) commons-net:commons-net:jar:3.6
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Lang (http://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.8.1
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

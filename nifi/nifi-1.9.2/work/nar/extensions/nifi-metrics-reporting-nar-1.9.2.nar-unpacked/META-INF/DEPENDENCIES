@@ -1,0 +1,27 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-metrics-reporting-nar
+
+
+From: 'an unknown organization'
+  - Metrics Core (http://metrics.codahale.com/metrics-core/) io.dropwizard.metrics:metrics-core:bundle:3.1.2
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Graphite Integration for Metrics (http://metrics.codahale.com/metrics-graphite/) io.dropwizard.metrics:metrics-graphite:bundle:3.1.2
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - JVM Integration for Metrics (http://metrics.codahale.com/metrics-jvm/) io.dropwizard.metrics:metrics-jvm:bundle:3.1.2
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+From: 'Apache NiFi Project' (http://nifi.apache.org/)
+  - nifi-metrics-reporter-service-api-nar (http://nifi.apache.org/nifi-nar-bundles/nifi-metrics-reporting-bundle/nifi-metrics-reporter-service-api-nar) org.apache.nifi:nifi-metrics-reporter-service-api-nar:nar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-metrics-reporting-task (http://nifi.apache.org/nifi-nar-bundles/nifi-metrics-reporting-bundle/nifi-metrics-reporting-task) org.apache.nifi:nifi-metrics-reporting-task:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-utils (http://nifi.apache.org/nifi-commons/nifi-utils) org.apache.nifi:nifi-utils:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

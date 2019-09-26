@@ -1,0 +1,31 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-druid-nar
+
+
+From: 'an unknown organization'
+  - druid-datasketches (http://druid.io/druid-datasketches/) io.druid.extensions:druid-datasketches:jar:0.9.1
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - druid-histogram (http://druid.io/druid-histogram/) io.druid.extensions:druid-histogram:jar:0.9.1
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache NiFi Project' (http://nifi.apache.org/)
+  - nifi-druid-controller-service (http://nifi.apache.org/nifi-nar-bundles/nifi-druid-bundle/nifi-druid-controller-service) org.apache.nifi:nifi-druid-controller-service:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-druid-controller-service-api-nar (http://nifi.apache.org/nifi-nar-bundles/nifi-druid-bundle/nifi-druid-controller-service-api-nar) org.apache.nifi:nifi-druid-controller-service-api-nar:nar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-druid-processors (http://nifi.apache.org/nifi-nar-bundles/nifi-druid-bundle/nifi-druid-processors) org.apache.nifi:nifi-druid-processors:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-utils (http://nifi.apache.org/nifi-commons/nifi-utils) org.apache.nifi:nifi-utils:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Yahoo! Inc.' (http://www.yahoo.com)
+  - com.yahoo.datasketches:sketches-core (http://datasketches.github.io/) com.yahoo.datasketches:sketches-core:jar:0.2.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

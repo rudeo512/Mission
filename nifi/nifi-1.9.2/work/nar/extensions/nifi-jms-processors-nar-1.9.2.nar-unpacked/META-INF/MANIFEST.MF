@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Build-Branch: NIFI-6169-RC2
+Build-Timestamp: 2019-04-03T15:32:45Z
+Archiver-Version: Plexus Archiver
+Nar-Dependency-Group: org.apache.nifi
+Built-By: jwitt
+Nar-Id: nifi-jms-processors-nar
+Clone-During-Instance-Class-Loading: false
+Nar-Dependency-Version: 1.9.2
+Nar-Version: 1.9.2
+Build-Tag: nifi-1.9.2-RC2
+Build-Revision: ff01ff6
+Nar-Group: org.apache.nifi
+Nar-Dependency-Id: nifi-jms-cf-service-nar
+Created-By: Apache Maven 3.6.0
+Build-Jdk: 1.8.0_202
+

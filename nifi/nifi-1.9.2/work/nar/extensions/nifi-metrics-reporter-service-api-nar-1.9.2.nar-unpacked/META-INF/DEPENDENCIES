@@ -1,0 +1,21 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-metrics-reporter-service-api-nar
+
+
+From: 'an unknown organization'
+  - Metrics Core (http://metrics.codahale.com/metrics-core/) io.dropwizard.metrics:metrics-core:bundle:3.1.2
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+From: 'Apache NiFi Project' (http://nifi.apache.org/)
+  - nifi-metrics-reporter-service-api (http://nifi.apache.org/nifi-nar-bundles/nifi-metrics-reporting-bundle/nifi-metrics-reporter-service-api) org.apache.nifi:nifi-metrics-reporter-service-api:jar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-standard-services-api-nar (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-standard-services-api-nar) org.apache.nifi:nifi-standard-services-api-nar:nar:1.9.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+
