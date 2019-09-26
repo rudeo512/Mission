@@ -41,4 +41,4 @@ HELP.md
 **/data6/**
 **/logs/**
 **/RUNNING_PID
-**/nifi/**/state/**
+**/nifi/**
