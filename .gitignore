@@ -42,3 +42,4 @@ HELP.md
 **/logs/**
 **/RUNNING_PID
 **/nifi/**
+/elasticsearch/data/

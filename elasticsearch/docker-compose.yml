@@ -1,18 +1,71 @@
-version: '3.1'
+version: '2.2'
 services:
   es01:
     build:
       context: ./
     container_name: es01
     environment:
-      - discovery.type=single-node
+      - node.name=es01
+      - cluster.name=es-docker-cluster
+      - discovery.seed_hosts=es02,es03
+      - cluster.initial_master_nodes=es01,es02,es03
+      - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
     ulimits:
       memlock:
         soft: -1
         hard: -1
     volumes:
-      - ./data:/usr/share/elasticsearch/data
+      - ./data/es01:/usr/share/elasticsearch/data
       - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+    restart: always
     ports:
       - 9200:9200
+      - 9300:9300
+    networks:
+      - elastic
+  es02:
+    build:
+      context: ./
+    container_name: es02
+    environment:
+      - node.name=es02
+      - cluster.name=es-docker-cluster
+      - discovery.seed_hosts=es01,es03
+      - cluster.initial_master_nodes=es01,es02,es03
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - ./data/es02:/usr/share/elasticsearch/data
+    networks:
+      - elastic
+    restart: always
+
+  es03:
+    build:
+      context: ./
+    container_name: es03
+    environment:
+      - node.name=es03
+      - cluster.name=es-docker-cluster
+      - discovery.seed_hosts=es01,es02
+      - cluster.initial_master_nodes=es01,es02,es03
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - ./data/es03:/usr/share/elasticsearch/data
+    networks:
+      - elastic
+    restart: always
+
+networks:
+  elastic:
+    driver: bridge
