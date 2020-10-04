@@ -6,6 +6,10 @@ services:
     container_name: logstash
     volumes:
       - ./data:/usr/share/logstash/data
-      - ./config:/usr/share/logstash/config:ro
+      - ./config:/usr/share/logstash/config
+      - ./pipeline:/usr/share/logstash/pipeline
     ports:
       - 9600:9600
+      - 5000:5000
+    environment:
+      LS_JAVA_OPTS: "-Xmx1024m -Xms1024m"
